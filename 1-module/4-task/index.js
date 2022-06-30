@@ -1,7 +1,7 @@
 function checkSpam(str) {
-  a = '1xBet'.toLowerCase();
-  b = 'XXX'.toLowerCase();
-  strToLowerCase = str.toLowerCase();
+  let a = '1xBet'.toLowerCase();
+  let b = 'XXX'.toLowerCase();
+  let strToLowerCase = str.toLowerCase();
   if (strToLowerCase.includes(a) || strToLowerCase.includes(b)) {
     return true;
   } else {
