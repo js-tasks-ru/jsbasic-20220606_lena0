@@ -65,7 +65,6 @@ export default class Carousel {
     // let carouselContainer = document.querySelector('.container');
     // let carouselSlideWidth = carouselContainer.offsetWidth; //730
 
-
     /*Если задать как написано в тесте ожидаемую ширину 500 - все работает
     , но сам слайдер работает некорректно*/
     let carouselSlideWidth = 500;
